@@ -1,0 +1,13 @@
+[color]
+        ui = auto
+[alias]
+  co = checkout
+  br = branch
+  st = status
+  lol = log --format=\"%h (%aE %ar) -> %s\" --graph --decorate
+
+[user]
+	name = Ali Rizvi
+	email = imsaar@gmail.com
+[core]
+	editor = mate -w
