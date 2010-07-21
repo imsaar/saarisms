@@ -1,6 +1,5 @@
 # Original Code BM:
 
-$~/Downloads/exam $ ruby memory_test.rb
 Starting Memory:
 MALLOC [ 9708K]
 Adding 100 characters, 1 at a time
@@ -20,19 +19,18 @@ Took 57.67754s to run
 
 # My Code BM
 
-$~/Code/ruby/exam $ ruby memory_test.rb
 Starting Memory:
-MALLOC [ 9708K]
+MALLOC                  [   9708K]
 Adding 100 characters, 1 at a time
 Current memory footprint:
-MALLOC [ 9708K]
+MALLOC                  [   9708K]
 Adding 1000 characters, 1 at a time
 Current memory footprint:
-MALLOC [ 9708K]
+MALLOC                  [   10.5M]
 Adding 10000 characters, 1 at a time
 Current memory footprint:
-MALLOC [ 18.4M]
+MALLOC                  [   18.4M]
 Adding 100000 characters, 1 at a time
 Current memory footprint:
-MALLOC [ 95.1M]
-Took 1.363149s to run
+MALLOC                  [   96.1M]
+Took 1.552461s to run

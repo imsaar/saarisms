@@ -16,17 +16,18 @@ module TextEditor
     end
 
     def add_text(text, position=-1)
-      command = lambda { @contents.insert(position, text) }
-      @commands << command
-      @reverted = []
+      execute { @contents.insert(position, text) }
     end
 
     def remove_text(first=0, last=contents.length)
-      command = lambda { @contents.slice!(first...last) }
-      @commands << command
-      @reverted = []
+      execute { @contents.slice!(first...last) }
     end
 
+
+    def execute(&block)
+      @commands << block
+      @reverted = []
+    end
 
     def undo
       return if @commands.empty?
