@@ -1,3 +1,5 @@
+# This script goes through the given folder of images and intelligently rotates
+# images that need rotation. This script requires rmagick library installed
 require 'rmagick'
 require 'exifr'
 require 'pp'
