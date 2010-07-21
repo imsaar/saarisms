@@ -18,11 +18,13 @@ module TextEditor
     def add_text(text, position=-1)
       command = lambda { @contents.insert(position, text) }
       @commands << command
+      @reverted = []
     end
 
     def remove_text(first=0, last=contents.length)
       command = lambda { @contents.slice!(first...last) }
       @commands << command
+      @reverted = []
     end
 
 
