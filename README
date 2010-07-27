@@ -1,7 +1,13 @@
 This project contains my configuration scripts and other utility scripts I have
 created for personal productivity or scratching my own itch.
 
-If I change this file on github I should do a git pull origin master before I can push stuff.
+Here are the directories and their purpose:
+
+* config : software configuration files that rock my world
+* resume : version control of various versions of my resume
+* solutions : my solutions to various programming problems
+* utilities : my solution to my real life probelms
+
 Now using wiki for notes.
 
 
