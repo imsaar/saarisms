@@ -25,9 +25,6 @@ set list
 set listchars=tab:>-,trail:^,eol:$
 "set listchars=tab:>-,trail:-
 
-"to add spaces instead of tabs
-set expandtab
-
 " evil, bad! -- hard tabs should be 8 chars... --lindes
 " set tabstop=4
 " _but_ we can use this:
@@ -72,3 +69,9 @@ set backupdir=~/.vim-tmp
 set directory=~/.vim-tmp
 
 colorscheme desert
+
+"to add spaces instead of tabs
+set expandtab
+
+set tabstop=2
+set shiftwidth=2
