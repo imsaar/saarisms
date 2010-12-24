@@ -1,0 +1,107 @@
+Ali Rizvi
+aliabbasrizvi@gmail.com
+
+Software Development Engineer
+
+10+ years of software development experience in embedded, ecommerce and web technologies. Experience of delivering results in a fast paced startup and intense enterprise environment. Passion to lead, learn and adapt to new technologies. Enjoy working in a team and mentoring junior team members to achieve individual and team success.
+
+Technical Skills
+
+* Programming Languages: Ruby, Java, Scala, Perl, C/C++
+* Frameworks and Technologies: Ruby on Rails, Struts, Hibernate
+* Databases: MySQL, Oracle, Berkley DB, SQLite
+* IDE and Editors: Vim, TextMate, Eclipse
+* Web Technologies: HTML, JavaScript, jQuery, CSS
+* Version Control Systems: Git, SVN, Perforce, CVS
+* Operating System Platforms: VxWorks, Mac OS X, Linux
+* Process and Methodologies: Scrum (Agile), Pair Programming, TDD, BDD Experience
+
+The Walt Disney Company                	                                         (09/2010 to Present)
+Walt Disney Parks and Resorts Online - Seattle WA
+Senior Software Engineer,  Mobile Technologies Group                              
+
+
+Amazon.com - Seattle, WA                                                          (09/2003 to 08/2010)
+World's largest ecommerce and web services platform. Amazon.com is a Fortune 100 Company.
+
+Software Development Engineer, Supply Chain			                  (08/2007 to 08/2010)
+Developed tools for the Sales and Operational Planning business team to increase their productivity and make the business process more accurate and efficient. Worked with large datasets from Data Warehouse and other MySQL and Oracle databases to extract, verify data integrity and analyze business critical data. 
+
+Selected Achievements:
+* Lead development of a new business critical Rails based reporting application for inbound backlog management. This application saved an estimated 160 hours in Q4 2009 alone (with similar projected saving in future years). This project required working closely with business owners, gathering requirements, creating user stories, estimating and planning releases in very challenging and time constrained environment.
+* Developed discrete event based stochastic Simulation of Inventory Availability in a complex fulfillment network topology as part of strategic planning initiative whose results were presented to the CEO. This was an extremely challenging project because of a very aggressive schedule (2 months) that required simulating a very complicated fulfillment network. 
+* Saved 169 Business Analysts Hours in one quarter (Q4 2008) by automating the expedited purchase order process. The times savings continually accumulated and were basis for further improvements in the system.
+* Took ownership of a business critical Rails reporting application (Big Push) in Q4 2007. Extended functionality and made business process improvements that resulted in big gains in coming years. Big Push is used to monitor and control the outbound (customer shipments) backlog for the entire North American fulfillment during Q4. In 2007 Q4 Amazon North American revenue grew 18% to 3.63 Billion.
+* Commended for excellent ongoing software support and establishing best practices including thorough code reviews, unit testing and continuous integration.
+
+Software Development Engineer,  Item Data Quality                                                                                                  (04/2005 to 08/2007)
+Amazon is an established authoritative source of product data which results in a confident customer experience that they know exactly what they are buying. Item Data Quality (IDQ) initiative had the goal of ensuring the quality of item data by proactively detecting and fixing any data quality issues. Being one of the first engineers in the team I am proud of several data quality initiatives that enhanced Amazon customer experience. 
+Selected Achievements:
+* Lead the brand control system initiative as the most senior developer on the team to ensure that variation in the brand name did not cause a bad customer browse experience. Developed a model to detect brand values like MS, Microsoft, MicroSoft in the entire Amazon catalog and normalize them into one canonical value.
+* Developed the IDQ Sampler system for auditing data quality. This technique involve intelligently selecting items for manual audit, providing an effective user interface for auditors and implementing complex statistical calculation to present the findings.
+* Developed Duplicate Merge Interface to eradicate duplication of product pages for the same item. This required working across teams and integrating their API to come up with one stop user interface for a complicated process.
+* Designed and Architected Item Quality Infrastructure including IDQ Service that was used for reporting data quality issues and surfacing the results to the IDQ Dashboard for business users. The service had a high throughput requirement because of the large amount of product data and potential defects.
+* Single handedly enhanced and maintained the mission critical Toys R US Exclusivity Portal (during the $200 million lawsuit) and Tools which required collaboration with item master, legal and business teams responsible for ensuring compliance to court order with a strict SLA (service level agreement).
+
+SDE, Transaction Platform Product Development                                                                                                         (09/2003 to 03/2005)
+Worked on improving software quality decreasing recurring software defects and response time to customer issues.
+ Selected Achievements:
+* Lead study of software quality metrics application and proposed a model to facilitate software groups to achieve operational excellence.
+* Lead the effort to resolve pending customer facing issues for price and availability software group reducing the backlog by 47% in 3 months.
+* Diagnosed the cause of a major fault causing backlog in the marketplace imaging system resulting in elimination 4 escalations (average) per week.
+* Proactively coordinated deployment of redundant solution for marketplace image server preventing potential failure preventing customer facing outage.
+
+
+Luminous Network - Cupertino, CA                                                                   (04/2000 to 12/2002)
+Luminous Network was a pioneer in 802.11R Resilient Packet Ring technology and developing carrier class optical access switch.
+
+Member Technical Staff, Embedded Software                                                                                                              (04/2000 to 12/2002)
+Joined Luminous Network at an early stage before the release of their first product. Delivered successful projects on time writing software for the system controller with 99.999 high availability requirements. 
+
+Selected Achievements:
+* Received Luminous Engineering Excellence Award as the lead developer for a new scalable slot management control application.
+* Increased efficiency of software image downloads by 3.52 times by adding parallel download and TFTP support.
+* Developed XML based unified database to increase system integrity which reduced failure recovery time by 19%.
+* Simplified the process of adding new entries in the database using the new table driven approach, reducing development time to ¼ on new features persistence support.
+* Designed and developed Command Line User Interface (CLI) for new features and enhanced the existing commands to be more intuitive and user friendly.
+* Ensured quality of software by following process guidelines and industry best practices. Helped team members through careful code reviews, catching potential bugs earlier in the SDLC.
+Leadership and Volunteering
+* Lead Amazon.com Toastmaster Club to Highest Club Award as the President of Club by achieving 9 out of 10 goals for the year. (2009)
+* Volunteer Facility Manager responsible for all operations, maintenance and procurement for a local community center serving more than 150 members. (2007 - present)
+* Established volunteer based self-service Amazon Summer Volleyball Tournament and lead tournament organization committee. (2004 - 2009)
+* Elected and served as Board of Director of a Silicon Valley Non-profit organization serving more than 500 members. (2003)
+* Lead Organizer of Annual Youth Conference with more than 250 attendees from North and Southern California. (2001 - 2003)
+* Lead Organizer of Annual Community Summer Camp (2003 - 2008)
+
+Education and Training
+
+BACHELOR OF ENGINEERING - COMPUTER SYSTEMS ENGINEERING
+NED University of Engineering & Technology (1999)
+UNIX PROGRAMMING
+UCSC Extension Sunnyvale, CA (2000)
+REAL TIME OPERATING SYSTEMS (RTOS)
+UCSC Extension Sunnyvale, CA (2001)
+CLEAR BUSINESS AND TECHNICAL WRITING
+Effective Training Associate Inc. (2002)
+
+PERL CERTIFICATE COURSE
+UW Extension, Seattle WA (2004)
+
+JAVA CERTIFICATE COURSE AND JAVA WEB SERVICES 
+UW Extension, Seattle WA (2005)
+
+PROJECT MANAGEMENT PROFESSIONAL (PMP) TRAINING
+GlocalPM, Seattle, WA (2009)
+
+CONFERENCES ATTENDED
+Embedded Systems Conference San Francisco, CA (2002)
+Ruby Conference San Diego, CA (2005)
+Ruby Conference Orlando, FL (2008)
+Canada on Rails, Vancouver, BC (2006)
+Rails Conference, Portland, OR (2007)
+
+                    
+
+                      Passionate
+Software Developer | Leader | Creative Thinker and Problem Solver
+
