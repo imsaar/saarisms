@@ -8,3 +8,27 @@ body {
   font-size: medium;
   font-family: verdana;
 }
+
+#experience .tenure {
+  float: right;
+}
+
+#experience .location {
+  float: right;
+}
+
+#experience .company_name {
+	font-weight: bold;
+}
+
+.project_title {
+  font-style: italic;
+}
+
+.wdpro_projects li {
+  list-style-type: none;
+}
+
+.main_heading {
+  font-size: large;
+}
