@@ -42,3 +42,7 @@ export PATH=/usr/local/zend/bin:$PATH
 # DCL Porthole specific
 alias mem="memcached -m 1 -l 127.0.0.1 -p 11211 -d"
 # End DCL Porthole specifi
+
+# PEP Specific
+alias mvni="mvn clean integration-test -Djbehave.story=* -Drun-jbehave=true"
+alias mvnc="mvn clean verify clover2:instrument clover2:clover clover2:check"
