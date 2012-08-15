@@ -1,0 +1,3 @@
+P4USER=arizvi
+P4PORT=perforce.corp.xyz.com:1666
+P4EDITOR=/usr/bin/vim
