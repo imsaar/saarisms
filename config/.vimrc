@@ -1,7 +1,7 @@
 " Ali Rizvi's Vim Settings
 
 set number
-set shiftwidth=4
+set shiftwidth=2
 
 set incsearch
 set hlsearch
@@ -24,6 +24,9 @@ autocmd BufNewFile,BufRead *.t set syntax=perl
 set list
 set listchars=tab:>-,trail:^,eol:$
 "set listchars=tab:>-,trail:-
+
+"to add spaces instead of tabs
+set expandtab
 
 " evil, bad! -- hard tabs should be 8 chars... --lindes
 " set tabstop=4
@@ -70,8 +73,8 @@ set directory=~/.vim-tmp
 
 colorscheme desert
 
-"to add spaces instead of tabs
-set expandtab
+"use mouse
+set mouse=a
 
-set tabstop=2
-set shiftwidth=2
+"highlight the line with the cursors
+set cursorline
