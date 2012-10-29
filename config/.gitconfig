@@ -5,7 +5,7 @@
   br = branch
   st = status
   lold = log --format=\"%h (%aE %ar) -> %s\" --graph --decorate
-  lol = "log --all --pretty=format:'%h %cd %s (%an)' --since='7 days ago'"
+  lol = "log --all --pretty=format:'%h %cd %s (%an)'"
 
 [user]
 	name = Ali Rizvi
