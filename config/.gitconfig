@@ -4,10 +4,19 @@
   co = checkout
   br = branch
   st = status
-  lol = log --format=\"%h (%aE %ar) -> %s\" --graph --decorate
+  lold = log --format=\"%h (%aE %ar) -> %s\" --graph --decorate
+  lol = "log --all --pretty=format:'%h %cd %s (%an)' --since='7 days ago'"
 
 [user]
 	name = Ali Rizvi
-	email = imsaar@gmail.com
+	email = aliabbasrizvi@gmail.com
 [core]
 	editor = mate -w
+[mergetool]
+	keepBackup = true
+[difftool "Kaleidoscope"]
+	cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+[difftool]
+	prompt = false
+[diff]
+	tool = Kaleidoscope
