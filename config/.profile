@@ -10,10 +10,6 @@ function _update_ps1()
 export PROMPT_COMMAND="_update_ps1"
 export TERM=xterm-256color
 
-alias cls=clear
-alias r=rails
-alias ll='ls -al'
-
 ##
 # Your previous /Users/ali/.profile file was backed up as /Users/ali/.profile.macports-saved_2010-07-11_at_16:32:36
 ##
@@ -47,3 +43,5 @@ FDK_EXE="/Users/ali/bin/FDK/Tools/osx"
 PATH=${PATH}:"/Users/ali/bin/FDK/Tools/osx"
 export PATH
 export FDK_EXE
+
+source ~/.aliases
