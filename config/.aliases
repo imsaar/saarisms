@@ -12,3 +12,17 @@ alias gd='git diff'
 alias go='git checkout '
 alias gk='gitk --all&'
 alias gx='gitx --all'
+
+# ssh to elevatepos host
+alias sshprod="ssh ubuntu@compass.elevatepos.com"
+alias sshfake="ssh ubuntu@fakecompass.elevatepos.com"
+alias sshtest="ssh ubuntu@test.elevatepos.com"
+alias sshtest2="ssh ubuntu@test2.elevatepos.com"
+alias sshhilt="ssh ubuntu@hilton.elevatepos.com"
+alias sshdemo="ssh ubuntu@demo.elevatepos.com"
+alias sshtrust="ssh ubuntu@trusthouse.elevatepos.com"
+alias sshhelp="ssh ubuntu@helpdesk.elevatepos.com"
+alias sshavi="ssh ubuntu@aviands.elevatepos.com"
+
+# misc
+alias less="less --RAW-CONTROL-CHARS"

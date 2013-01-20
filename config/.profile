@@ -23,7 +23,7 @@ export PATH=/apps/mongodb/bin:$PATH
 # Add todo.txt config
 export TODOTXT_DEFAULT_ACTION=ls
 export PATH=$PATH:/Volumes/Data\ Drive/Dropbox/Everywhere/todo_txt
-alias t='todo -d /Volumes/Data\ Drive/Dropbox/Everywhere/todo_txt/todo.cfg'
+alias to='todo -d /Volumes/Data\ Drive/Dropbox/Everywhere/todo_txt/todo.cfg'
 source /Volumes/Data\ Drive/Dropbox/Everywhere/todo_txt/todo_completion
 
 set -o vi
@@ -44,4 +44,14 @@ PATH=${PATH}:"/Users/ali/bin/FDK/Tools/osx"
 export PATH
 export FDK_EXE
 
+# for grails
+export JAVA_HOME=/Library/Java/Home
+export PATH="$PATH:$JAVA_HOME/bin"
+export GRAILS_HOME=/apps/grails
+export PATH="$PATH:$GRAILS_HOME/bin"
 source ~/.aliases
+
+# Setting PATH for Python 2.7
+# The orginal version is saved in .profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+export PATH
