@@ -1,0 +1,7 @@
+--type-set=log=.log
+--type-set=cache=.cache
+--type-set=coffee=.coffee
+--type-set=jade=.jade
+--type-set=feature=.feature
+--type-set=json=.json
+--type-set=haml=.hamlbars
