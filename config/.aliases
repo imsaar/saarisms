@@ -8,10 +8,13 @@ alias gs='git status '
 alias ga='git add '
 alias gb='git branch '
 alias gc='git commit'
-alias gd='git diff'
+alias gd='git diff -b'
 alias go='git checkout '
 alias gk='gitk --all&'
 alias gx='gitx --all'
 
 # misc
 alias less="less --RAW-CONTROL-CHARS"
+
+alias a='atom -n .'
+alias rmkh='rm ~/.ssh/known_hosts'
