@@ -1,0 +1,18 @@
+"*":
+  core:
+    customFileTypes:
+      "text.haml": [
+        "hamlbars"
+      ]
+      "text.html.handlebars": [
+        "hamlbars"
+      ]
+    telemetryConsent: "no"
+  editor:
+    fontFamily: "Source Code Pro"
+    fontSize: 16
+    invisibles: {}
+  "exception-reporting":
+    userId: "fad8f366-bed6-c6ea-a90c-21e1433007f2"
+  welcome:
+    showOnStartup: false
