@@ -1,6 +1,21 @@
 " Ali Rizvi's Vim Settings
 
 set number
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'slim-template/vim-slim.git'
+Plugin 'rails.vim'
+Plugin 'scrooloose/nerdtree'
+
+call vundle#end()
+
 set shiftwidth=2
 
 set incsearch
@@ -14,6 +29,7 @@ set autoindent
 
 " from benji fisher to turn on the matchit plugin automatically and more
 filetype plugin on
+filetype plugin indent on
 
 " explicity map file extension .t to perl syntax instead of tads
 " which is autodetected by filetype plugin on
@@ -49,8 +65,6 @@ set ruler
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
-filetype plugin indent on
-
 "set shiftwidth to 2 for ruby only
 autocmd FileType ruby setlocal  sw=2
 
@@ -78,3 +92,12 @@ set mouse=a
 
 "highlight the line with the cursors
 set cursorline
+
+" clipboard https://stackoverflow.com/questions/11489428/how-to-make-vim-paste-from-and-copy-to-systems-clipboard
+vnoremap <C-c> "*y
+
+" https://vi.stackexchange.com/questions/84/how-can-i-copy-text-to-the-system-clipboard-from-vim
+" set clipboard=unnamed
+
+" https://www.sitepoint.com/effective-rails-development-vim/
+" set tags=~/code/tags;

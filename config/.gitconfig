@@ -1,6 +1,7 @@
 [color]
-        ui = auto
+	ui = true
 [alias]
+  cl = clone
   co = checkout
   br = branch
   st = status
@@ -12,11 +13,26 @@
 	email = aliabbasrizvi@gmail.com
 [core]
 	editor = vi
+	pager = diff-so-fancy | less --tabs=4 -RFX
 [mergetool]
 	keepBackup = true
-[difftool "Kaleidoscope"]
-	cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+[difftool "diff-so-fancy"]
+	cmd = diff-so-fancy git \"$LOCAL\" \"$REMOTE\"
 [difftool]
 	prompt = false
 [diff]
-	tool = Kaleidoscope
+	tool = diff-so-fancy
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = yellow
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[diff-so-fancy]
+	markEmptyLines = false

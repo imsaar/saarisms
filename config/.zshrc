@@ -49,6 +49,20 @@ source ~/tmuxinator.zsh
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 export PATH="/usr/local/sbin:$PATH"
 
-#eval $(docker-machine env default)
+export PATH="${HOME}/.bin:${PATH}"
 
-export HASTE_SERVER='http://hastebin.temperednetworks.corp'
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Robert's
+#
+# Make new dir and cd to it
+function mkcd {
+    mkdir -p $1 && cd $1
+}
+
+# Allows commit message without typing quotes (can't have quotes in the commit msg though).
+function gc {
+    git commit -m "$*"
+}
+
+unalias rg
