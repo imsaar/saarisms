@@ -12,7 +12,9 @@
 input = STDIN.gets.chomp.strip
 cmd, param = input.split
 
-case cmd 
+puts "thank you for calling cmd with #{cmd.inspect} and #{param.inspect}"
+
+case cmd
 when 'g'
  repo = case param
         when 'a'
@@ -41,18 +43,23 @@ when 'hb'
   `open https://app.honeybadger.io/`
 when 'a'
   `open "https://www.avvo.com/attorneys/#{param}"`
-when 'csmr20'
-  `open https://docs.google.com/spreadsheets/d/15jqbHcr-t5fomFiHziuUkJC-563T9AnHsL5sFE6OGJw/edit#gid=2121409843`
-when 'csmrtt'
-  `open https://confluence.internetbrands.com/pages/viewpage.action?spaceKey=AVVO&title=Consumer+Team+Ticket+Template`
-when 'csmrrtt'
-  `open https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1487519`
-when 'csmrbug'
-  `open https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1487527`
-when 'csmrfea'
-  `open https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1486484`
-when 'csmrdebt'
-  `open https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1680748`
+when 'csmr'
+  subcmd = case param
+           when '20'
+             `open https://docs.google.com/spreadsheets/d/15jqbHcr-t5fomFiHziuUkJC-563T9AnHsL5sFE6OGJw/edit#gid=2121409843`
+           when 'tt'
+             `open https://confluence.internetbrands.com/pages/viewpage.action?spaceKey=AVVO&title=Consumer+Team+Ticket+Template`
+           when 'rtt'
+             `open https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1487519`
+           when 'bug'
+             `open https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1487527`
+           when 'fea'
+             `open https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1486484`
+           when 'debt'
+             `open https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1680748`
+           else
+             `open https://docs.google.com/document/d/1r2EZs4ZU7omBEMVkrp7NyytjKBXoOmj82Cdf1T8xRaE/edit`
+           end
 else
   `open http://google.com/search?q=#{param}`
 end
