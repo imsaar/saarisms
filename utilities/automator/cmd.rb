@@ -12,9 +12,7 @@
 input = STDIN.gets.chomp.strip
 cmd, param = input.split
 
-puts "thank you for calling cmd with #{cmd.inspect} and #{param.inspect}"
-
-case cmd
+url = case cmd
 when 'g'
  repo = case param
         when 'a'
@@ -28,38 +26,43 @@ when 'g'
         else
           param
         end
- `open "http://github.com/avvo/#{repo}"`
+  "http://github.com/avvo/#{repo}"
 when 'j'
-  `open https://jira.internetbrands.com/browse/#{param}`
+  "https://jira.internetbrands.com/browse/#{param}"
 when 'adp'
-  `open https://workforcenow.adp.com/`
+  "https://workforcenow.adp.com/"
 when 'sh'
-  `open http://ship-it.corp.avvo.com/`
+  "http://ship-it.corp.avvo.com/"
 when 'ch'
-  `open https://changelog.avvo.com/`
+  "https://changelog.avvo.com/"
 when 'pd'
-  `open https://avvo.pagerduty.com/incidents`
+  "https://avvo.pagerduty.com/incidents"
 when 'hb'
-  `open https://app.honeybadger.io/`
+  "https://app.honeybadger.io/"
 when 'a'
-  `open "https://www.avvo.com/attorneys/#{param}"`
+  "https://www.avvo.com/attorneys/#{param}"
 when 'csmr'
   subcmd = case param
            when '20'
-             `open https://docs.google.com/spreadsheets/d/15jqbHcr-t5fomFiHziuUkJC-563T9AnHsL5sFE6OGJw/edit#gid=2121409843`
+             "https://docs.google.com/spreadsheets/d/15jqbHcr-t5fomFiHziuUkJC-563T9AnHsL5sFE6OGJw/edit#gid=2121409843"
            when 'tt'
-             `open https://confluence.internetbrands.com/pages/viewpage.action?spaceKey=AVVO&title=Consumer+Team+Ticket+Template`
+             "https://confluence.internetbrands.com/pages/viewpage.action?spaceKey=AVVO&title=Consumer+Team+Ticket+Template"
            when 'rtt'
-             `open https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1487519`
+             "https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1487519"
            when 'bug'
-             `open https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1487527`
+             "https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1487527"
            when 'fea'
-             `open https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1486484`
+             "https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1486484"
            when 'debt'
-             `open https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1680748`
+             "https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1680748"
            else
-             `open https://docs.google.com/document/d/1r2EZs4ZU7omBEMVkrp7NyytjKBXoOmj82Cdf1T8xRaE/edit`
+             "https://docs.google.com/document/d/1r2EZs4ZU7omBEMVkrp7NyytjKBXoOmj82Cdf1T8xRaE/edit"
            end
 else
-  `open http://google.com/search?q=#{param}`
+  "http://google.com/search?q=#{param}"
 end
+
+`open #{url}`
+
+puts url
+url
