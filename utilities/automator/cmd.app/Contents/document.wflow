@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>492</string>
+	<key>AMApplicationVersion</key>
+	<string>2.10</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>Run AppleScript</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on run {input, parameters}		activate me		return inputend run</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>4DFBCD60-6717-4202-8508-C466C7EA2CA5</string>
+				<key>Keywords</key>
+				<array>
+					<string>Run</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>9A0EBDE0-917E-4B68-AE2C-D3CF402651D0</string>
+				<key>UUID</key>
+				<string>DC9AD3CC-052E-48CA-955D-EE88149D36AA</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>554.750000:315.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+					<string>TextEdit</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>buttonAffirmative</key>
+					<dict/>
+					<key>buttonNegative</key>
+					<dict/>
+					<key>defaultAnswer</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array/>
+					</dict>
+					<key>defaultMessage</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
+							<string>a = attorney profile | adp = avvo adp | g = github/avvo | j = jira | ch = changelog | hb = honeybadger | pd = pagerduty | sh = shipit | csmr 20 = 20% time doc  | csmr tt = ticket template | csmr rtt | csmr bug | csmr fea | csmr debt</string>
+						</array>
+					</dict>
+					<key>requireInput</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Ask for Text.action</string>
+				<key>ActionName</key>
+				<string>Ask for Text</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>buttonAffirmative</key>
+					<string>OK</string>
+					<key>buttonNegative</key>
+					<string>Cancel</string>
+					<key>defaultAnswer</key>
+					<string></string>
+					<key>defaultMessage</key>
+					<string>a = attorney profile | adp = avvo adp | g = github/avvo | j = jira | ch = changelog | hb = honeybadger | pd = pagerduty | sh = shipit | csmr 20 = 20% time doc  | csmr tt = ticket template | csmr rtt | csmr bug | csmr fea | csmr debt</string>
+					<key>requireInput</key>
+					<true/>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.TextInputDialog</string>
+				<key>CFBundleVersion</key>
+				<string>1.1.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryText</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMAskForTextAction</string>
+				<key>InputUUID</key>
+				<string>A59D05DA-BF3D-4D8E-B2FD-0DAA2CDA409D</string>
+				<key>Keywords</key>
+				<array>
+					<string>Text</string>
+					<string>Ask</string>
+					<string>Prompt</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>429B7C5C-B6FD-4717-A659-0B7600052D62</string>
+				<key>UUID</key>
+				<string>7D1A6B4C-4502-4B2C-9271-1AEA8E054993</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+					<string>TextEdit</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>defaultAnswer</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string>OK</string>
+						<key>name</key>
+						<string>buttonAffirmative</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>defaultMessage</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string>Cancel</string>
+						<key>name</key>
+						<string>buttonNegative</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>requireInput</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>554.750000:496.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.0.3</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<dict/>
+					<key>CheckedForUserDefaultShell</key>
+					<dict/>
+					<key>inputMethod</key>
+					<dict/>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
+				<key>ActionName</key>
+				<string>Run Shell Script</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>input = STDIN.gets.chomp.strip
+cmd, param = input.split
+
+File.open('/var/tmp/cmd.log', 'a') { |f| f.puts "#{Time.now} : cmd called with '#{input}'" }
+
+url = case cmd
+when 'g'
+ repo = case param
+        when 'a'
+          'amos'
+        when 'p'
+          'attorney_profiles'
+        when 'c'
+          'avvo_common'
+        when 's'
+          'solicitor'
+        else
+          param
+        end
+  "http://github.com/avvo/#{repo}"
+when 'j'
+  "https://jira.internetbrands.com/browse/#{param}"
+when 'adp'
+  "https://workforcenow.adp.com/"
+when 'sh'
+  "http://ship-it.corp.avvo.com/"
+when 'ch'
+  "https://changelog.avvo.com/"
+when 'pd'
+  "https://avvo.pagerduty.com/incidents"
+when 'hb'
+  "https://app.honeybadger.io/"
+when 'a'
+  "https://www.avvo.com/attorneys/#{param}"
+when 'csmr'
+  subcmd = case param
+           when '20'
+             "https://docs.google.com/spreadsheets/d/15jqbHcr-t5fomFiHziuUkJC-563T9AnHsL5sFE6OGJw/edit#gid=2121409843"
+           when 'tt'
+             "https://confluence.internetbrands.com/pages/viewpage.action?spaceKey=AVVO&amp;title=Consumer+Team+Ticket+Template"
+           when 'rtt'
+             "https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1487519"
+           when 'bug'
+             "https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1487527"
+           when 'fea'
+             "https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1486484"
+           when 'debt'
+             "https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1680748"
+           else
+             "https://docs.google.com/document/d/1r2EZs4ZU7omBEMVkrp7NyytjKBXoOmj82Cdf1T8xRaE/edit"
+           end
+else
+  "http://google.com/search?q=#{input}"
+end
+
+File.open('/var/tmp/cmd.log', 'a') { |f| f.puts "#{Time.now} : opening: #{url}" }
+
+`open "#{url}"`</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>0</integer>
+					<key>shell</key>
+					<string>/usr/bin/ruby</string>
+					<key>source</key>
+					<string></string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.RunShellScript</string>
+				<key>CFBundleVersion</key>
+				<string>2.0.3</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunShellScriptAction</string>
+				<key>InputUUID</key>
+				<string>6B879046-76FE-489A-A14A-9805D20BC881</string>
+				<key>Keywords</key>
+				<array>
+					<string>Shell</string>
+					<string>Script</string>
+					<string>Command</string>
+					<string>Run</string>
+					<string>Unix</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>FFA7F50E-1773-4877-B55A-04FE394AE89F</string>
+				<key>ShowWhenRun</key>
+				<false/>
+				<key>UUID</key>
+				<string>FDEAEAC4-3852-4070-B1D6-D017F3138AA5</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>inputMethod</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>CheckedForUserDefaultShell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>COMMAND_STRING</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>/bin/sh</string>
+						<key>name</key>
+						<string>shell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>554.750000:678.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>inputToUse</key>
+					<dict/>
+					<key>loopMode</key>
+					<dict/>
+					<key>loopUnit</key>
+					<dict/>
+					<key>loopValue</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Loop.action</string>
+				<key>ActionName</key>
+				<string>Loop</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>inputToUse</key>
+					<integer>1</integer>
+					<key>loopMode</key>
+					<integer>1</integer>
+					<key>loopUnit</key>
+					<integer>1</integer>
+					<key>loopValue</key>
+					<integer>30</integer>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.Loop</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>Loop</string>
+				<key>InputUUID</key>
+				<string>484BE713-A8CF-4E03-8C3C-A3D529E44C83</string>
+				<key>Keywords</key>
+				<array/>
+				<key>OutputUUID</key>
+				<string>9331CC00-0563-4782-A27C-69B71B6A6205</string>
+				<key>UUID</key>
+				<string>FDBCA5FB-C82C-455B-BA7E-33D2847A8D14</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>loopMode</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>loopValue</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>inputToUse</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<integer>1</integer>
+						<key>name</key>
+						<string>loopUnit</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>554.750000:806.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Loop.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict>
+		<key>17F60EA2-8D91-4A90-82B4-B45C53C0711D</key>
+		<dict>
+			<key>from</key>
+			<string>DC9AD3CC-052E-48CA-955D-EE88149D36AA - DC9AD3CC-052E-48CA-955D-EE88149D36AA</string>
+			<key>to</key>
+			<string>7D1A6B4C-4502-4B2C-9271-1AEA8E054993 - 7D1A6B4C-4502-4B2C-9271-1AEA8E054993</string>
+		</dict>
+		<key>70F8226F-F79B-4066-8D3B-C922EF6A475B</key>
+		<dict>
+			<key>from</key>
+			<string>FDEAEAC4-3852-4070-B1D6-D017F3138AA5 - FDEAEAC4-3852-4070-B1D6-D017F3138AA5</string>
+			<key>to</key>
+			<string>FDBCA5FB-C82C-455B-BA7E-33D2847A8D14 - FDBCA5FB-C82C-455B-BA7E-33D2847A8D14</string>
+		</dict>
+		<key>711D6F08-34D9-4013-9032-55C9FB3148E3</key>
+		<dict>
+			<key>from</key>
+			<string>7D1A6B4C-4502-4B2C-9271-1AEA8E054993 - 7D1A6B4C-4502-4B2C-9271-1AEA8E054993</string>
+			<key>to</key>
+			<string>FDEAEAC4-3852-4070-B1D6-D017F3138AA5 - FDEAEAC4-3852-4070-B1D6-D017F3138AA5</string>
+		</dict>
+	</dict>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.application</string>
+	</dict>
+</dict>
+</plist>

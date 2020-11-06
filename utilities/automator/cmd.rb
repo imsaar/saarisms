@@ -12,6 +12,8 @@
 input = STDIN.gets.chomp.strip
 cmd, param = input.split
 
+File.open('/var/tmp/cmd.log', 'a') { |f| f.puts "#{Time.now} : cmd called with '#{input}'" }
+
 url = case cmd
 when 'g'
  repo = case param
@@ -59,10 +61,10 @@ when 'csmr'
              "https://docs.google.com/document/d/1r2EZs4ZU7omBEMVkrp7NyytjKBXoOmj82Cdf1T8xRaE/edit"
            end
 else
-  "http://google.com/search?q=#{param}"
+  "http://google.com/search?q=#{input}"
 end
 
-`open #{url}`
+File.open('/var/tmp/cmd.log', 'a') { |f| f.puts "#{Time.now} : opening: #{url}" }
 
-puts url
-url
+`open "#{url}"`
+
