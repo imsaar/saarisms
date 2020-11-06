@@ -7,7 +7,7 @@
 #end run
 
 # Ask for Text
-# a = attorney profile | adp = avvo adp | g = github/avvo | j = jira | ch = changelog | hb = honeybadger | pd = pagerduty | sh = shipit | csmr 20 = 20% time doc  | csmr tt = ticket template
+# a = attorney profile | adp = avvo adp | g = github/avvo | j = jira | ch = changelog | hb = honeybadger | pd = pagerduty | sh = shipit | csmr 20 = 20% time doc  | csmr tt = ticket template | csmr rtt | csmr bug | csmr fea | csmr debt
 
 input = STDIN.gets.chomp.strip
 cmd, param = input.split
@@ -41,10 +41,18 @@ when 'hb'
   `open https://app.honeybadger.io/`
 when 'a'
   `open "https://www.avvo.com/attorneys/#{param}"`
-when 'csmr 20'
+when 'csmr20'
   `open https://docs.google.com/spreadsheets/d/15jqbHcr-t5fomFiHziuUkJC-563T9AnHsL5sFE6OGJw/edit#gid=2121409843`
-when 'csmr tt'
+when 'csmrtt'
   `open https://confluence.internetbrands.com/pages/viewpage.action?spaceKey=AVVO&title=Consumer+Team+Ticket+Template`
+when 'csmrrtt'
+  `open https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1487519`
+when 'csmrbug'
+  `open https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1487527`
+when 'csmrfea'
+  `open https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1486484`
+when 'csmrdebt'
+  `open https://jira.internetbrands.com/secure/CloneIssueDetails!default.jspa?id=1680748`
 else
-  "http://google.com/search?q=#{param}"
+  `open http://google.com/search?q=#{param}`
 end
