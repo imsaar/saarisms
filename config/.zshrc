@@ -42,14 +42,15 @@ export EDITOR='vim'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source ~/.aliases
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-source ~/tmuxinator.zsh
+[ -f ~/.aliases ] && source ~/.aliases
+# if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+# source ~/tmuxinator.zsh
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 export PATH="/usr/local/sbin:$PATH"
 
 export PATH="${HOME}/.bin:${PATH}"
+export PATH="${HOME}/code/diff-so-fancy:${PATH}"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -65,4 +66,6 @@ function gc {
     git commit -m "$*"
 }
 
-unalias rg
+if alias rg 2>/dev/null; then
+  unalias rg
+fi
