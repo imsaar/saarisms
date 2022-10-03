@@ -1,5 +1,5 @@
 [color]
-	ui = true
+  ui = true
 [alias]
   cl = clone
   co = checkout
@@ -9,30 +9,32 @@
   lol = "log --all --pretty=format:'%h %cd %s (%an)'"
 
 [user]
-	name = Ali Rizvi
-	email = aliabbasrizvi@gmail.com
+  name = Ali Rizvi
+  email = aliabbasrizvi@gmail.com
 [core]
-	editor = vi
-	pager = diff-so-fancy | less --tabs=4 -RFX
+  editor = vi
+  pager = diff-so-fancy | less --tabs=4 -RFX
 [mergetool]
-	keepBackup = true
+  keepBackup = true
 [difftool "diff-so-fancy"]
-	cmd = diff-so-fancy git \"$LOCAL\" \"$REMOTE\"
+  cmd = diff-so-fancy git \"$LOCAL\" \"$REMOTE\"
 [difftool]
-	prompt = false
+  prompt = false
 [diff]
-	tool = diff-so-fancy
+  tool = diff-so-fancy
 [color "diff-highlight"]
-	oldNormal = red bold
-	oldHighlight = red bold 52
-	newNormal = green bold
-	newHighlight = green bold 22
+  oldNormal = red bold
+  oldHighlight = red bold 52
+  newNormal = green bold
+  newHighlight = green bold 22
 [color "diff"]
-	meta = yellow
-	frag = magenta bold
-	commit = yellow bold
-	old = red bold
-	new = green bold
-	whitespace = red reverse
+  meta = yellow
+  frag = magenta bold
+  commit = yellow bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse
 [diff-so-fancy]
-	markEmptyLines = false
+  markEmptyLines = false
+[interactive]
+	diffFilter = diff-so-fancy --patch
